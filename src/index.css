@@ -1,0 +1,160 @@
+@font-face {
+  font-family: pokemon;
+  src: url("./assets/8-BIT WONDER.TTF");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url("./assets/texture.jpg");
+  background-repeat: repeat;
+}
+
+.pokedex {
+  height: 90vh;
+  min-height: 550px;
+  width: 100%;
+  min-width: 450px;
+  margin: 5vh 0;
+  max-width: 450px;
+  background-color: #dd082f;
+  border: 2px solid #000;
+  padding: 20px;
+  border-radius: 5% 0 5% 0;
+}
+
+.nav {
+  width: 100%;
+  height: 15%;
+  display: flex;
+}
+
+.logo {
+  height: 100%;
+}
+
+.cir {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.rojo {
+  background-color: #f00;
+}
+.rojo:hover {
+  background-color: #00bceb;
+}
+.verde {
+  background-color: #0f0;
+}
+.amarillo {
+  background-color: #ff0;
+}
+
+.info {
+  width: 100%;
+  height: 70%;
+  margin: 10px 0 20px 0;
+  background-color: #b0b0b0;
+  border-radius: 5% 5% 0 0;
+  border: 2px solid #000;
+  padding: 15px;
+}
+
+.pantalla {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 5%;
+  border: 2px solid #000;
+}
+
+.navegacion {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.reg,
+.av {
+  width: 35%;
+  height: 100%;
+  border-radius: 50px;
+  border: 2px solid #000;
+  font-size: 30px;
+}
+
+.reg {
+  background-color: #ff0;
+}
+.av {
+  background-color: #0f0;
+}
+
+.en {
+  height: 100%;
+  width: 55px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background-color: #f00;
+}
+
+.contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.imgid {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgid img {
+  width: 100%;
+}
+
+.imgid p {
+  font-size: 30px;
+  font-family: pokemon;
+}
+
+.rest {
+  width: 50%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.rest p,
+.rest h1 {
+  font-family: pokemon;
+}
+
+.rest h1 {
+  font-size: 20px;
+  margin-left: -25px;
+  text-transform: uppercase;
+}
+
+.rest p {
+  font-size: 20px;
+}
+
+.divPokemon {
+  display: flex;
+  width: 100%;
+}
